@@ -141,3 +141,7 @@ class webPentest:
 URL = "http://example.com"
 Header = {"Content-Type": "application/json"}
 JsonPayload = {"key": "value"}
+
+example = webPentest(URL, Header, JsonPayload)
+example.requestConfig(1)
+example.sendRequest(1)
